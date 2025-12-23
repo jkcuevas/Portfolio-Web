@@ -12,8 +12,9 @@
   const container = canvas.parentElement; // home section
   const rect = container.getBoundingClientRect();
 
-  w = rect.width * 1.4;
-  h = rect.height * 1.4;
+  w = rect.width;
+  h = rect.height;
+
 
   canvas.width = Math.floor(w * DPR);
   canvas.height = Math.floor(h * DPR);

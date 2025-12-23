@@ -68,41 +68,22 @@
                         </mask>
                         <g mask="url(#mask0)">
                             <path d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z"/>
-                            <image class="home__blob-img" x="50" y="80" width="360" height="390" href="./assets/img/aboutme.jpg" xlink:href="./assets/img/aboutme.jpg"/>
+                      <image
+  class="home__blob-img"
+  x="30"
+  y="0"
+  width="229"
+  height="467"
+  preserveAspectRatio="xMidYMid slice"
+  href="./assets/img/prof1.png"
+  xlink:href="./assets/img/prof1.png"
+/>
 
                         </g>
                     </svg>
                 </div>
             </section>
 
-            <!--===== SKILLS =====-->
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-            <h2 class="section-title">Skills</h2>
-
-            <div class="skills__container bd-grid">
-                <div class="skills__panel">
-                <h3 class="skills__subtitle">Professional Skills</h3>
-                <p class="skills__text">Tools and technologies I use for building projects.</p>
-
-                <!-- Tabs -->
-                <div class="skills__tabs">
-                    <button class="skills__tab active" data-skill-tab="all">All</button>
-                    <button class="skills__tab" data-skill-tab="languages">Languages</button>
-                    <button class="skills__tab" data-skill-tab="frameworks">Frameworks & Libraries</button>
-                    <button class="skills__tab" data-skill-tab="databases">Databases</button>
-                    <button class="skills__tab" data-skill-tab="tools">Tools & Platforms</button>
-                </div>
-
-                <!-- Icon Grid (auto-filled by JS) -->
-                <div class="skills__grid" id="skillsGrid"></div>
-                </div>
-
-                <div class="skills__visual">
-                <img src="assets/img/work3.jpg" alt="Skills Preview" class="skills__img">
-                </div>
-            </div>
-            </section>
 
 
 
@@ -196,6 +177,70 @@
             </section>
 
 
+             <!--===== SKILLS =====-->
+            <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <!-- LEFT: Professional Skills -->
+                <div class="skills__panel">
+                <h3 class="skills__subtitle">Professional Skills</h3>
+                <p class="skills__text">Tools and technologies I use for building projects.</p>
+
+                <div class="skills__tabs">
+                    <button class="skills__tab active" data-skill-tab="all">All</button>
+                    <button class="skills__tab" data-skill-tab="languages">Languages</button>
+                    <button class="skills__tab" data-skill-tab="frameworks">Frameworks & Libraries</button>
+                    <button class="skills__tab" data-skill-tab="databases">Databases</button>
+                    <button class="skills__tab" data-skill-tab="tools">Tools & Platforms</button>
+                </div>
+
+                <div class="skills__grid" id="skillsGrid"></div>
+                </div>
+
+                <!-- RIGHT: Soft Skills (like screenshot) -->
+                <!-- RIGHT: Soft Skills (unique design) -->
+                <div class="skills__soft">
+                <h3 class="skills__soft-title">Soft Skills</h3>
+
+                <div class="soft__list soft__list--unique">
+                    <div class="soft__card soft__card--unique">
+                    <div class="soft__icon soft__icon--unique">⚡</div>
+                    <div class="soft__body">
+                        <h4 class="soft__name">Fast Learner</h4>
+                        <p class="soft__desc">Pick up new tools quickly and apply them to real tasks.</p>
+                    </div>
+                    </div>
+
+                    <div class="soft__card soft__card--unique">
+                    <div class="soft__icon soft__icon--unique">🤝</div>
+                    <div class="soft__body">
+                        <h4 class="soft__name">Team-Focused</h4>
+                        <p class="soft__desc">Communicate clearly, align goals, and support the team.</p>
+                    </div>
+                    </div>
+
+                    <div class="soft__card soft__card--unique">
+                    <div class="soft__icon soft__icon--unique">🧩</div>
+                    <div class="soft__body">
+                        <h4 class="soft__name">Problem Solver</h4>
+                        <p class="soft__desc">Break down complex issues and ship practical fixes.</p>
+                    </div>
+                    </div>
+
+                    <div class="soft__card soft__card--unique">
+                    <div class="soft__icon soft__icon--unique">🎯</div>
+                    <div class="soft__body">
+                        <h4 class="soft__name">Detail-Oriented</h4>
+                        <p class="soft__desc">Keep layouts clean and features consistent across devices.</p>
+                    </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+            </section>
+
+
 
             <!--===== CONTACT =====-->
             <section class="contact section" id="contact">
@@ -206,22 +251,49 @@
                         <input type="text" placeholder="Name" class="contact__input">
                         <input type="mail" placeholder="Email" class="contact__input">
                         <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <input type="button" value="Enviar" class="contact__button button">
+                        <input type="button" value="Send" class="contact__button button">
                     </form>
                 </div>
             </section>
         </main>
 
         <!--===== FOOTER =====-->
-        <footer class="footer" >
-            <p class="footer__title">Jed Kerk Cuevas</p>
-            <div class="footer__social">
-                <a href="#" class="footer__icon"><i class='bx bxl-facebook' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-instagram' ></i></a>
-                <a href="#" class="footer__icon"><i class='bx bxl-twitter' ></i></a>
+        <footer class="footer">
+            <div class="footer__identity">
+                <p class="footer__title">Jed Kerk Cuevas</p>
+
+                <div class="footer__contacts">
+                <a href="mailto:jkcuevas4@gmail.com" class="footer__contact">
+                    jkcuevas4@gmail.com
+                </a>
+                <a href="tel:+639759625230" class="footer__contact">
+                    +63 975 962 5230
+                </a>
             </div>
+
+
+            <div class="footer__social">
+                <a href="https://www.facebook.com/jedkerk.cuevas04" class="footer__icon" aria-label="Facebook">
+                <i class='bx bxl-facebook'></i>
+                </a>
+
+                <a href="https://www.threads.com/@jedkerkcuevas?xmt=AQF0vXneDxhgPGQ0Peuwr2_M2MaxT6CYLkx4qResL15edmc"
+                class="footer__icon" aria-label="Instagram / Threads">
+                <i class='bx bxl-instagram'></i>
+                </a>
+
+                <a href="https://github.com/jkcuevas" class="footer__icon" aria-label="GitHub">
+                <i class='bx bxl-github'></i>
+                </a>
+
+                <!-- <a href="https://discord.com/users/YOUR_DISCORD_ID" class="footer__icon" aria-label="Discord">
+                <i class='bx bxl-discord'></i> -->
+                </a>
+            </div>
+
             <p class="footer__copy">© 2025 Jed Kerk Cuevas. All rights reserved.</p>
         </footer>
+
 
 
         <!--===== SCROLL REVEAL =====-->
